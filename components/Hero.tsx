@@ -28,7 +28,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-6 drop-shadow-lg"
+          className="text-5xl md:text-7xl font-bold tracking-tight leading-tight text-white mb-2 drop-shadow-lg"
         >
           Welcome to <span className="text-primary">KSRTC</span>
         </motion.h1>
